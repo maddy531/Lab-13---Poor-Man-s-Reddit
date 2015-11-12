@@ -7,8 +7,8 @@ a:hover{
 }
 body{
   padding: 1em;
-  background-image: url('http://thehdimg.com/hd-wallpaper-reddit-images-6-hd-wallpaper.html');
-  background-repeat: no-repeat;
+  background-image: url('http://1.bp.blogspot.com/-E76ghXfBfYI/UVING3DKZQI/AAAAAAAAINc/_ar7kVPL4os/s1600/Tumblr+Background+Renaissance+pink.jpg');
+  background-repeat: repeat;
 }
 #nav-bar li{
   display: inline-block;
@@ -27,14 +27,5 @@ body{
 
 }
 .cd-top:hover{
-  opacity: .75;
+  opacity: .50;
 }
-
-
-/*.cd-top.cd-is-visible {
-  visibility: visible;
-  opacity: 1;
-}
-.cd-top.cd-fade-out {
-  opacity: .5;
-}*/
