@@ -5,3 +5,35 @@ a  {
 a:hover{
   color: blue;
 }
+body{
+  padding: 1em;
+
+}
+#nav-bar li{
+  display: inline-block;
+  padding-left: .5em;
+  padding-right: 2em;
+}
+
+.cd-top{
+  background-color: blue;
+  position: fixed;
+  bottom: 1em;
+  right: 1em;
+  padding: 1em;
+  opacity: .3;
+  color: white;
+
+}
+.cd-top:hover{
+  opacity: .75;
+}
+
+
+/*.cd-top.cd-is-visible {
+  visibility: visible;
+  opacity: 1;
+}
+.cd-top.cd-fade-out {
+  opacity: .5;
+}*/

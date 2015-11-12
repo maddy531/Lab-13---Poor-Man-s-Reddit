@@ -7,7 +7,7 @@ $(document).ready(function(){
     $.each(posts, function(index, post){
     var $container = $("<div />").appendTo($('body'));
 
-    var $title = $('<a />').html('<h1>'+ post.data.title +'</h1>').appendTo($container);
+    var $title = $('<a />').html('<h2>'+ post.data.title +'</h2>').appendTo($container);
 
     $title.attr("href",post.data.url);
 
@@ -16,9 +16,8 @@ $(document).ready(function(){
 
     var postDate = new Date(post.data.created*1000);
 
-    $('<p />').text("post: " +postDate.getMonth()+ "/" +postDate.getDay()+ "/" +
-       postDate.getFullYear() ).appendTo($container);
+    $('<p />').text("Post: " +postDate  ).appendTo($container);
   });
 });
 
-});
+})
